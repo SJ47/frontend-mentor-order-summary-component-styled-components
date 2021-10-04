@@ -2,6 +2,8 @@
 
 This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
+A refactored version of my previous effort but utilising Styled Components for CSS styling.
+
 ## Table of contents
 
 -   [Overview](#overview)
@@ -40,6 +42,7 @@ Users should be able to:
 -   Flexbox
 -   Mobile-first workflow
 -   [React](https://reactjs.org/) - JS library
+-   [Styled-Components](https://styled-components.com/) - JS library
 
 ### What I learned
 
