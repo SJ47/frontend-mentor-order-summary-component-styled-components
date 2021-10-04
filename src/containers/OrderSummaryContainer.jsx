@@ -18,8 +18,12 @@ const OrderSummaryContainer = () => {
                 on any device anywhere you like!
             </StyledParagraph>
             <AnnualPlan />
-            <StyledButton>Proceed to Payment</StyledButton>
-            <StyledCancelButton>Cancel Order</StyledCancelButton>
+            <StyledButton bg="var(--tertiary-color)">
+                Proceed to Payment
+            </StyledButton>
+            <StyledCancelButton fg="var(--quaternary-color)">
+                Cancel Order
+            </StyledCancelButton>
         </StyledContainer>
     );
 };

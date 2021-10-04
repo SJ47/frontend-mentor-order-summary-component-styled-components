@@ -4,9 +4,9 @@ export const StyledButton = styled.button`
     width: 85%;
     padding: 0.9em 0;
     margin-top: 1.5em;
-    background: var(--tertiary-color);
+    background: ${({ bg }) => bg || "var(--primary-color)"};
     border-radius: var(--radius-corner);
-    color: white;
+    color: ${({ fg }) => fg || "var(--primary-color)"};
     font-weight: 700;
     border: none;
     font-size: 1.1rem;
@@ -20,8 +20,6 @@ export const StyledButton = styled.button`
 `;
 
 export const StyledCancelButton = styled(StyledButton)`
-    background: var(--primary-color);
-    color: var(--quaternary-color);
     opacity: 0.5;
     box-shadow: none;
     margin: 1em 0;
